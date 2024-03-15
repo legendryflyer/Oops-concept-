@@ -21,7 +21,7 @@ print(tavish.display())
 print(tavish.displayBetaName())
 
 
-# multiple inheritance 
+# multi-level inheritance 
 
 class father:
     def __init__(self,fn,ln):
