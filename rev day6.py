@@ -10,4 +10,18 @@ class calci:
     
 
 h=calci()
-h.add()
+print(h.add(1,2,3,4))
+
+
+class calculator:
+    def addition(self,x=None,y=None,z=None):
+        if x != None and y !=None and z !=None : 
+            return (x+y+z)
+        elif x != None and y != None:
+            return (x+y)
+
+
+cccc=calculator()
+print(cccc.addition(1,2))
+print(cccc.addition(2,3,4))
+
