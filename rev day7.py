@@ -79,3 +79,10 @@ e=Cat()
 d.talk()
 e.talk()
         
+        
+    # overloding  of + operator for addition of objects of different classes
+        
+        
+        
+        
+        
